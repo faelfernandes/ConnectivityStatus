@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // IPs defined directly in the script
   const ips = [
-      "192.168.1.1",
+      "142.251.135.36",
       "192.168.1.2",
       "192.168.1.3"
   ];
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       statusElement.className = 'status loading';
       statusElement.innerHTML = `
           <p>${ip}</p>
-          <p class="attempts">Attempts: <span id="attempts-${ip}">0</span></p>
+          <p class="attempts">Tentativas: <span id="attempts-${ip}">0</span></p>
           <p class="status-icon"><i class="fas fa-spinner fa-spin"></i></p>
       `;
       statusContainer.appendChild(statusElement);
